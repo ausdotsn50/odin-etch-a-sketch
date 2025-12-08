@@ -1,9 +1,9 @@
 # odin-etch-a-sketch
 
 ## 📃 Description
-<!-- ### Rock, Paper, Scissors console game demonstrating JS Foundations knowledge from The Odin Project -->
+Browser version of an Etch-A-Sketch demonstrating JS Foundations knowledge from The Odin Project
 
 ## 🕹️ Navigation
 ### Placeholder
 
-## 📺 Live at: https://ausdotsn50.github.io/odin-rock-paper-scissors/
+## 📺 Live at: https://ausdotsn50.github.io/odin-etch-a-sketch/
