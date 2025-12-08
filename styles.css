@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    border: 2px solid black;
+    width: var(--grid-width);
+    height: var(--grid-height);
+}
+
+.inner {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: var(--cell-width);
+    height: var(--cell-height);
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

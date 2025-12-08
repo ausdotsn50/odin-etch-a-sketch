@@ -1,7 +1,7 @@
 # odin-etch-a-sketch
 
 ## 📃 Description
-Browser version of an Etch-A-Sketch demonstrating JS Foundations knowledge from The Odin Project
+### Browser version of an Etch-a-Sketch demonstrating JS Foundations knowledge from The Odin Project
 
 ## 🕹️ Navigation
 ### Placeholder
