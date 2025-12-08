@@ -20,6 +20,7 @@ body {
     align-items: center;
     width: var(--cell-width);
     height: var(--cell-height);
+    background-color: var(--grid-color);
 }
 
 .outer {
