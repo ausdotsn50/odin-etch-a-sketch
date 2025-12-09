@@ -1,0 +1,48 @@
+/*
+// Source - https://stackoverflow.com/a
+// Posted by Pztar
+// Retrieved 2025-12-09, License - CC BY-SA 3.0
+*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    height: 100vh;
+}
+
+#btn-cont {
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+@media screen and (min-height: 750px) and (max-height: 800px){ 
+    #container {
+        flex-direction: column;
+        border: 2px solid black;
+        width: var(--grid-width);
+        height: var(--grid-height);
+    }
+
+    .inner {
+        /*flex*/
+        display: flex;
+        width: var(--cell-width);
+        height: var(--cell-height);
+        background-color: var(--grid-color);
+        border: 1px solid gray;
+    }
+
+    .outer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
