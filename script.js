@@ -1,11 +1,12 @@
 // Let size be between 1 to 100 only
 // Create a webpage with a 16x16 grid of square divs.
-const width = 960;
-const height = 760;
+const width = 700;
+const height = 500;
 
 const container = document.querySelector("#container");
-const size = 2;
-const divWidth = width/size, divHeight = height/size;
+const size = 100;
+const marginOffset = size*2;
+const divWidth = (width-marginOffset)/size, divHeight = (height-marginOffset)/size;
 
 container.style.setProperty('--grid-width', width + 'px');
 container.style.setProperty('--grid-height', height + 'px');
