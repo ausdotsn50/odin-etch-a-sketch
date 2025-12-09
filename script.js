@@ -25,7 +25,7 @@ function renderGrid(newSize) {
           const innerDiv = document.createElement("div");
           //innerDiv.textContent = "o";
           innerDiv.classList.add("inner")
-          innerDiv.addEventListener('mouseenter', handleEvent);
+          innerDiv.addEventListener('mouseenter', sketch);
           outerDiv.appendChild(innerDiv);
       }
   }
@@ -37,7 +37,7 @@ function renderGrid(newSize) {
   container.style.setProperty('--cell-height', divHeight + 'px');
 
   renderedInner = document.querySelectorAll(".inner"); // save rendered inner
-  console.log(renderedInner);
+  //console.log(renderedInner);
 }
 
 renderGrid(16);
@@ -74,14 +74,23 @@ function changeSize(event) {
   }
 }
 
-function handleEvent(event) {
-  event.target.style.setProperty('--grid-color', 'black');
+function sketch(event) {
+  event.target.style.setProperty('--grid-color', getRandomRgbColor());
 }
 
 function clearGrid(event) {
   event.preventDefault();
   
   renderedInner.forEach(inner => {
-    inner.style.backgroundColor = "white";
+    inner.style.setProperty('--grid-color', 'white');
   })
+}
+
+function getRandomRgbColor() {
+  const r = Math.floor(Math.random() * 256);
+  const g = Math.floor(Math.random() * 256);
+  const b = Math.floor(Math.random() * 256);
+  const a = Math.random();
+  // Format rgb color string for css
+  return `rgba(${r}, ${g}, ${b}, ${a})`;
 }
