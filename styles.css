@@ -6,9 +6,15 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content:  center;
-    align-items: center;
     height: 100vh;
+}
+
+.main-cont {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center; 
 }
 
 #btn-cont {
@@ -45,4 +51,8 @@ body {
         justify-content: center;
         align-items: center;
     }
+}
+
+.footer-cont {
+    text-align: center;
 }
