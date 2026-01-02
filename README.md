@@ -3,7 +3,4 @@
 ## 📃 Description
 ### Browser version of an Etch-a-Sketch demonstrating JS Foundations knowledge from The Odin Project
 
-## 🕹️ Navigation
-### Placeholder
-
 ## 📺 Live at: https://ausdotsn50.github.io/odin-etch-a-sketch/
